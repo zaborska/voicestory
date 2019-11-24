@@ -12,11 +12,13 @@
 .widget-window .chat {
   padding: 10px 23px;
   width: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  height: unset; }
   .widget-window .chat .chat-person {
     align-items: center;
     border-bottom: 1px solid #dddddd;
-    padding: 20px 0; }
+    padding: 20px 5px;
+    margin-top: 0; }
     .widget-window .chat .chat-person img {
       overflow: unset; }
     .widget-window .chat .chat-person .chat-message__user-status:after {

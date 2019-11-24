@@ -22,11 +22,13 @@
     padding: 10px 23px;
     width: 100%;
     box-sizing: border-box;
+    height: unset;
 
     .chat-person {
       align-items: center;
       border-bottom: 1px solid #dddddd;
-      padding: 20px 0;
+      padding: 20px 5px;
+      margin-top: 0;
 
       img {
         overflow: unset;
