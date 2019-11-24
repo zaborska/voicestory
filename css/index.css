@@ -9,4 +9,54 @@
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='30px' height='30px'%3e%3cpath fill-rule='evenodd' fill='rgb(149, 152, 155)' d='M30.000,17.143 L17.143,17.143 L17.143,30.000 L12.857,30.000 L12.857,17.143 L-0.000,17.143 L-0.000,12.857 L12.857,12.857 L12.857,0.000 L17.143,0.000 L17.143,12.857 L30.000,12.857 L30.000,17.143 Z'/%3e%3c/svg%3e");
   background-size: cover; }
 
+.widget-window .chat {
+  padding: 10px 23px;
+  width: 100%;
+  box-sizing: border-box; }
+  .widget-window .chat .chat-person {
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    padding: 20px 0; }
+    .widget-window .chat .chat-person img {
+      overflow: unset; }
+    .widget-window .chat .chat-person .chat-message__user-status:after {
+      content: "";
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-left: 8px; }
+    .widget-window .chat .chat-person .chat-message__user-online:after {
+      background-color: #007a5a; }
+    .widget-window .chat .chat-person .chat-message__user-offline:after {
+      background-color: transparent;
+      border: 2px solid #5b5a5b;
+      box-sizing: border-box; }
+    .widget-window .chat .chat-person .chat-message__membership {
+      width: 245px; }
+      .widget-window .chat .chat-person .chat-message__membership span {
+        white-space: nowrap;
+        font-size: 14px; }
+        .widget-window .chat .chat-person .chat-message__membership span:before {
+          content: "";
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          margin-right: 8px; }
+        .widget-window .chat .chat-person .chat-message__membership span.owner:before {
+          background-color: #ebc85d; }
+        .widget-window .chat .chat-person .chat-message__membership span.moderator:before {
+          background-color: #ee7d79; }
+        .widget-window .chat .chat-person .chat-message__membership span.member:before {
+          background-color: #617c99; }
+    .widget-window .chat .chat-person .chat-message__controls .chat-message__more-btn {
+      width: 18px;
+      transform: rotate(90deg);
+      height: 18px;
+      background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg width='18px' height='76px' viewBox='0 0 18 76' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3e%3cg id='more-vertical' transform='translate(4.833333, 4.666667)' stroke='%23606060' stroke-width='8.33333333'%3e%3ccircle id='Oval' cx='4.16666667' cy='33.3333333' r='4.16666667'%3e%3c/circle%3e%3ccircle id='Oval' cx='4.16666667' cy='4.16666667' r='4.16666667'%3e%3c/circle%3e%3ccircle id='Oval' cx='4.16666667' cy='62.5' r='4.16666667'%3e%3c/circle%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      background-position: center; }
+
 /*# sourceMappingURL=index.css.map */
