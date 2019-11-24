@@ -1,0 +1,41 @@
+
+/* helvetica */
+
+@font-face {
+  font-family: "Helvetica Neue Cyr Light";
+  src: url("fonts/HelveticaNeueCyr-Light.woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Cyr Roman";
+  src: url("fonts/HelveticaNeueCyr-Roman.woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Cyr Medium";
+  src: url("fonts/HelveticaNeueCyr-Medium.woff");
+}
+
+@font-face {
+  font-family: "Helvetica Neue Cyr Bold";
+  src: url("fonts/HelveticaNeueCyr-Bold.woff");
+}
+
+
+
+/* sf */
+
+@font-face {
+  font-family: "SF Ui Text Regular";
+  src: url("fonts/SFUIText-Regular.woff");
+}
+
+@font-face {
+  font-family: "SF Ui Text Semibold";
+  src: url("fonts/SFUIText-Semibold.woff");
+}
+
+@font-face {
+  font-family: "SF Ui Text Heavy";
+  src: url("fonts/SFUIText-Heavy.woff");
+}
