@@ -80,6 +80,9 @@
     <link rel="stylesheet" href="css-old/fonts.css" />
     <link rel="stylesheet" href="css-old/homepage-repeated.css" />
     <link rel="stylesheet" href="css-old/index2_faq.css" />
+
+    <link rel="stylesheet" href="css/index.css" />
+
     <title>Voicestory</title>
   </head>
   <body>
@@ -268,7 +271,7 @@
 
       <!-- widget -->
       <button type="button" class="widget-btn" name="button"></button>
-      <div class="widget-window__wrapper">
+      <div class="widget-window__wrapper opened">
         <div class="widget-window__header">
           <button type="button" class="dialogs" name="button">
             <span class="dialogs-count">3</span>
@@ -288,7 +291,553 @@
         <div class="widget-window">
           <!-- content -->
           <div class="content">
-            <div class="chat-header__wrapper"></div>
+            <div class="chat-header__wrapper">
+              <header class="chat-header active">
+                <div class="chat-header__info">
+                  <div class="chat-header__title">Manage members</div>
+                </div>
+
+                <div class="chat-header__actions">
+                  <button type="button" class="search" name="button"></button>
+                  <button type="button" class="add" name="button"></button>
+                </div>
+              </header>
+            </div>
+
+            <div class="chat">
+              <!-- new messages -->
+              <!-- <div class="new-messages__wrapper">
+                <div class="new-messages">
+                  <button
+                    type="button"
+                    class="new-messages__up"
+                    name="button"
+                  ></button>
+                  <div class="new-messages__users">
+                    <img src="img/index2-img/new1.png" alt="" />
+                    <img src="img/index2-img/new2.png" alt="" />
+                    <img src="img/index2-img/new3.png" alt="" />
+                  </div>
+                  <span>25 messages</span>
+                  <button
+                    type="button"
+                    class="new-messages__close"
+                    name="button"
+                  ></button>
+                </div>
+              </div> -->
+              <!-- new messages end -->
+
+              <!-- message 
+              <div class="chat-message">
+                <img src="img/chat3-content-img/chat-user8.png" alt="" />
+
+                <div class="chat-message__info">
+                  <p class="chat-message__user">
+                    <a href="index2_faq.html#">Leslie P. Rose</a>
+                    <span class="chat-message__time">08:34 AM</span>
+                  </p>
+                  <p class="chat-message__text">
+                    Hellooooo, it’s meeeeee!
+                  </p>
+                </div>
+
+                <div class="chat-message__actions">
+                  <button
+                    type="button"
+                    class="chat-message__reply"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__smile"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__edit"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__more"
+                    name="button"
+                  ></button>
+
+                  <ul class="chat-message__reaction">
+                    <p>Frequenlty used</p>
+                    <li>
+                      <img src="img/smiles/disappointed.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/embarrassed.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/in-love.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/kawaii.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/laughing.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/neutral.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/sleeping.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/smile.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/tongue-out.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/wink.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/yummy.gif" alt="" />
+                    </li>
+                  </ul>
+
+                  <ul class="chat-message__more-window">
+                    <li>Copy link</li>
+                    <li>Mark unread</li>
+                    <li>Remind me about this</li>
+                    <li>Pin to #support</li>
+                    <li class="delete-message">Delete message</li>
+                    <li>Add a message action</li>
+                  </ul>
+                </div>
+              </div>-->
+              <!-- message end -->
+
+              <!-- new date -->
+              <!-- <div class="new-date">
+                <span>Sunday, July 21st</span>
+              </div> -->
+              <!-- new date end -->
+
+              <!-- message  -->
+              <!-- <div class="chat-message">
+                <img src="img/chat3-content-img/chat-user9.png" alt="" />
+
+                <div class="chat-message__info">
+                  <p class="chat-message__user">
+                    <a href="index2_faq.html#">Eric B. Buckles</a>
+                    <span class="chat-message__time">08:46 AM</span>
+                  </p>
+                  <p class="chat-message__text">
+                    Ok :)
+                  </p>
+
+                  <ul class="chat-message__emotions">
+                    <li>
+                      <button type="button" class="emotion" name="button">
+                        <img src="img/smiles/disappointed.gif" alt="" />
+                        <span>12</span>
+                      </button>
+
+                      <ul class="users">
+                        <li>
+                          Alex, Jude (please use the forum for tech support),
+                          kasstawi, KevinNTH, and L
+                        </li>
+                        <li>reacred with scream:</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <button type="button" class="emotion" name="button">
+                        <img src="img/smiles/wink.gif" alt="" />
+                        <span>9</span>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="chat-message__actions">
+                  <button
+                    type="button"
+                    class="chat-message__reply"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__smile"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__edit"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__more"
+                    name="button"
+                  ></button>
+
+                  <ul class="chat-message__reaction">
+                    <p>Frequenlty used</p>
+                    <li>
+                      <img src="img/smiles/disappointed.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/embarrassed.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/in-love.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/kawaii.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/laughing.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/neutral.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/sleeping.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/smile.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/tongue-out.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/wink.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/yummy.gif" alt="" />
+                    </li>
+                  </ul>
+
+                  <ul class="chat-message__more-window">
+                    <li>Copy link</li>
+                    <li>Mark unread</li>
+                    <li>Remind me about this</li>
+                    <li>Pin to #support</li>
+                    <li class="delete-message">Delete message</li>
+                    <li>Add a message action</li>
+                  </ul>
+                </div>
+              </div> -->
+              <!-- message end -->
+
+              <!-- message  -->
+              <!-- <div class="chat-message">
+                <img src="img/chat3-content-img/chat-user10.png" alt="" />
+
+                <div class="chat-message__info">
+                  <p class="chat-message__user">
+                    <a href="index2_faq.html#">Erik M. Holmes</a>
+                    <span class="chat-message__time">08:50 AM</span>
+                  </p>
+
+                  <p class="chat-message__text">
+                    Most plastic in the oceans is from fishing nets. <br />
+                    Plastic bags generally end up in landfills, not the ocean
+                  </p>
+                </div>
+
+                <div class="chat-message__actions">
+                  <button
+                    type="button"
+                    class="chat-message__reply"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__smile"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__edit"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__more"
+                    name="button"
+                  ></button>
+
+                  <ul class="chat-message__reaction">
+                    <p>Frequenlty used</p>
+                    <li>
+                      <img src="img/smiles/disappointed.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/embarrassed.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/in-love.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/kawaii.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/laughing.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/neutral.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/sleeping.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/smile.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/tongue-out.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/wink.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/yummy.gif" alt="" />
+                    </li>
+                  </ul>
+
+                  <ul class="chat-message__more-window">
+                    <li>Copy link</li>
+                    <li>Mark unread</li>
+                    <li>Remind me about this</li>
+                    <li>Pin to #support</li>
+                    <li class="delete-message">Delete message</li>
+                    <li>Add a message action</li>
+                  </ul>
+                </div>
+              </div> -->
+              <!-- message end -->
+
+              <!-- message  -->
+              <!-- <div class="chat-message">
+                <img src="img/chat3-content-img/chat-user11.png" alt="" />
+
+                <div class="chat-message__info">
+                  <p class="chat-message__user">
+                    <a href="index2_faq.html#">James E. Schimke</a>
+                    <span class="chat-message__time">08:55 AM</span>
+                  </p>
+                  <p class="chat-message__text">
+                    Most of the plastic (around 2 million metric tonnes) is from
+                    river <br />
+                    emissions with almost 90% of that coming from just 10
+                    rivers.
+                  </p>
+                </div>
+
+                <div class="chat-message__actions">
+                  <button
+                    type="button"
+                    class="chat-message__reply"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__smile"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__edit"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__more"
+                    name="button"
+                  ></button>
+
+                  <ul class="chat-message__reaction">
+                    <p>Frequenlty used</p>
+                    <li>
+                      <img src="img/smiles/disappointed.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/embarrassed.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/in-love.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/kawaii.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/laughing.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/neutral.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/sleeping.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/smile.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/tongue-out.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/wink.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/yummy.gif" alt="" />
+                    </li>
+                  </ul>
+
+                  <ul class="chat-message__more-window">
+                    <li>Copy link</li>
+                    <li>Mark unread</li>
+                    <li>Remind me about this</li>
+                    <li>Pin to #support</li>
+                    <li class="delete-message">Delete message</li>
+                    <li>Add a message action</li>
+                  </ul>
+                </div>
+              </div> -->
+              <!-- message end -->
+
+              <!-- message  -->
+              <!-- <div class="chat-message">
+                <img src="img/chat3-content-img/chat-user12.png" alt="" />
+
+                <div class="chat-message__info">
+                  <p class="chat-message__user">
+                    <a href="index2_faq.html#">Angela D. Roberts</a>
+                    <span class="chat-message__time">08:56 AM</span>
+                  </p>
+
+                  <p class="chat-message__text">
+                    That's what the article says.
+                  </p>
+
+                  <div class="chat-message__replies">
+                    <img src="img/index2-img/reply1.png" alt="" />
+                    <img src="img/index2-img/reply2.png" alt="" />
+                    <span>3 messages</span>
+                    <button type="button" name="button"></button>
+                  </div>
+                </div>
+
+                <div class="chat-message__actions">
+                  <button
+                    type="button"
+                    class="chat-message__reply"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__smile"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__edit"
+                    name="button"
+                  ></button>
+                  <i></i>
+                  <button
+                    type="button"
+                    class="chat-message__more"
+                    name="button"
+                  ></button>
+
+                  <ul class="chat-message__reaction">
+                    <p>Frequenlty used</p>
+                    <li>
+                      <img src="img/smiles/disappointed.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/embarrassed.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/in-love.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/kawaii.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/laughing.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/neutral.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/sleeping.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/smile.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/tongue-out.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/wink.gif" alt="" />
+                    </li>
+                    <li>
+                      <img src="img/smiles/yummy.gif" alt="" />
+                    </li>
+                  </ul>
+
+                  <ul class="chat-message__more-window">
+                    <li>Copy link</li>
+                    <li>Mark unread</li>
+                    <li>Remind me about this</li>
+                    <li>Pin to #support</li>
+                    <li class="delete-message">Delete message</li>
+                    <li>Add a message action</li>
+                  </ul>
+                </div>
+              </div> -->
+              <!-- message end -->
+            </div>
+
+            <!-- chat input -->
+            <!-- <div class="chat-input__wrapper">
+              <p class="on-site">We run on <span>Voicestory</span></p>
+
+              <div class="chat-input">
+                <button
+                  type="button"
+                  class="chat-input__add"
+                  name="button"
+                ></button>
+                <button
+                  type="button"
+                  class="chat-input__image"
+                  name="button"
+                ></button>
+                <button
+                  type="button"
+                  class="chat-input__emoji"
+                  name="button"
+                ></button>
+                <input type="text" name="" placeholder="Send a message" />
+                <button type="button" class="chat-input__send" name="button">
+                  Send
+                </button>
+              </div>
+            </div> -->
+            <!-- chat input -->
           </div>
           <!-- content end -->
         </div>

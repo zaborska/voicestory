@@ -1,0 +1,20 @@
+.widget-window {
+  .chat-header__wrapper {
+    .chat-header {
+      .chat-header__title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #111111;
+      }
+
+      .chat-header__actions {
+        .add {
+          width: 15px;
+          height: 15px;
+          background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='30px' height='30px'%3e%3cpath fill-rule='evenodd' fill='rgb(149, 152, 155)' d='M30.000,17.143 L17.143,17.143 L17.143,30.000 L12.857,30.000 L12.857,17.143 L-0.000,17.143 L-0.000,12.857 L12.857,12.857 L12.857,0.000 L17.143,0.000 L17.143,12.857 L30.000,12.857 L30.000,17.143 Z'/%3e%3c/svg%3e");
+          background-size: cover;
+        }
+      }
+    }
+  }
+}
